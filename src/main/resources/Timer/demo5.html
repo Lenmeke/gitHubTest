@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>浮窗组件使用示例</title>
+	<!-- <style>#float-window {
+				position: fixed;
+				top: 100px;
+				left: 100px;
+				width: 400px;
+				height: 200px;
+				background-color: #f4f4f4;
+				border: 1px solid #ccc;
+				box-shadow: 2px 2px 10px #ccc;
+				z-index: 9999;
+				display: none;
+			}
+
+			#float-window .title {
+				height: 30px;
+				line-height: 30px;
+				padding: 0 10px;
+				background-color: #e2e2e2;
+				border-bottom: 1px solid #ccc;
+				cursor: move;
+			}
+
+			#float-window .title .close {
+				float: right;
+				cursor: pointer;
+			}
+
+			#float-window .content {
+				padding: 10px;
+			}
+
+			#float-window .time {
+				font-size: 18px;
+				font-weight: bold;
+				color: #000000;
+			}</style> -->
+</head>
+<body>
+	<h1>浮窗组件使用示例</h1>
+
+	<p>请点击下面的按钮打开浮窗：</p>
+	<button onclick="openFloatWindow()">打开浮窗</button>
+	
+	<button onclick="getTime()">获取时间</button>
+	
+	<script src="float-window.js"></script>
+	<script>
+		function openFloatWindow() {
+			const floatWindow = new FloatWindow();
+			floatWindow.create();
+			floatWindow.open();
+			window.top.floatWindow = floatWindow;
+		}
+		
+		function getTime() {
+			console.log(window.top.floatWindow.getCurrentTime());
+		}
+	</script>
+</body>
+</html>
