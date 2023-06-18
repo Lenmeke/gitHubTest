@@ -1,0 +1,5 @@
+server:
+  port: 8088
+elasticjob: #这个是我们自己在初始化的时候区的非框架配置
+  zookeeper-url: localhost:2181   #zookeeper-url 的链接端口
+  group-name: elastic-job-group  #这个是zooker 在可视化界面创建项目的名字
