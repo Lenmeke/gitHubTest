@@ -49,3 +49,6 @@ WHERE a.id = b.id
         WHERE a.id = c.id
           AND c.condition_c IN ('6', '7')
     );
+
+-- 现有表新增字段
+ALTER TABLE A ADD age NUMBER(3) DEFAULT 0 NOT NULL;
