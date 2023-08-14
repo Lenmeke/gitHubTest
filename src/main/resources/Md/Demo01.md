@@ -86,3 +86,6 @@ Copy
 DROP TABLE cs_rec_oprdate;
 ALTER TABLE cs_rec_oprdate_new RENAME TO cs_rec_oprdate;
 这样可以实现对现有大表的分区,而无需重新创建表和移动数据。分区过程也可以分多次进行,逐步完成。
+
+
+Java教程：https://blog.csdn.net/weixin_67276852?type=blog
