@@ -5,3 +5,12 @@ https://blog.csdn.net/weixin_39803552/article/details/111256809?spm=1001.2101.30
 https://blog.csdn.net/github_38592071/article/details/122660062?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_utm_term~default-1-122660062-blog-119737716.235^v38^pc_relevant_anti_t3&spm=1001.2101.3001.4242.2&utm_relevant_index=4
 
 https://github.com/beansoft/intellij-obsolete-plugins/releases/tag/struts2
+
+        // 设置调试
+        // http获取session序列化到redis中(key：sessionId、 value：session)
+
+        // redis消息推送（sessionId）
+
+        // 根据sessionId从缓存中获取并反序列化session
+
+        // 将session保存至服务器中
