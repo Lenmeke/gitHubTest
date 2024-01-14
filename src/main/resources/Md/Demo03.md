@@ -6,11 +6,7 @@ https://blog.csdn.net/github_38592071/article/details/122660062?utm_medium=distr
 
 https://github.com/beansoft/intellij-obsolete-plugins/releases/tag/struts2
 
-        // 设置调试
-        // http获取session序列化到redis中(key：sessionId、 value：session)
-
-        // redis消息推送（sessionId）
-
-        // 根据sessionId从缓存中获取并反序列化session
-
-        // 将session保存至服务器中
+gitbash主题
+nord
+jetbrainsMono bold 12pt
+show bold as colour default
